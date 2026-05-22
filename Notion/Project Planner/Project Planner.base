@@ -1,0 +1,25 @@
+# Project Planner
+
+filters:
+  and:
+    - note["base"] == link("Project Planner.base")
+properties:
+  file.name:
+    displayName: Project
+  Status:
+    displayName: Status
+  Parent item:
+    displayName: Parent item
+  Sub-item:
+    displayName: Sub-item
+  Deadline:
+    displayName: Deadline
+views:
+  - type: table
+    name: Table View
+    order:
+      - file.name
+      - Status
+      - Parent item
+      - Sub-item
+      - Deadline

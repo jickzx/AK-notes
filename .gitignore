@@ -1,0 +1,22 @@
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Obsidian local state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Optional local/cache files
+.obsidian/cache
+.obsidian/graph.json
+
+# Temp / backup files
+*.tmp
+*.bak
+*~
+
+# Large lecture slides excluded from GitHub push
+ISE/Lecture Slides/08 - Prototyping.pdf
+ISE/Lecture Slides/10 - Implementation.pdf
+ISE/Lecture Slides/13 - Advanced Version Control.pdf
