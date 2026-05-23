@@ -24,11 +24,11 @@ Class diagrams help you see:
 
 A UML class is usually drawn as a box with three sections:
 
-![basic class box](<uml-01-basic-class.png>)
+![basic class box](<UML Assets/Generated/uml-01-basic-class.png>)
 
 Example:
 
-![Person class diagram](<uml-02-person-class.png>)
+![Person class diagram](<UML Assets/Generated/uml-02-person-class.png>)
 
 Equivalent Java:
 
@@ -60,11 +60,11 @@ public class Person {
 
 UML uses symbols to show access modifiers:
 
-![visibility symbols](<uml-03-visibility.png>)
+![visibility symbols](<UML Assets/Generated/uml-03-visibility.png>)
 
 Examples:
 
-![visibility example class](<uml-04-visibility-example.png>)
+![visibility example class](<UML Assets/Generated/uml-04-visibility-example.png>)
 
 Java:
 
@@ -85,11 +85,11 @@ Exam tip: private fields plus public methods usually signal encapsulation/data h
 
 Field format:
 
-![field format](<uml-05-field-format.png>)
+![field format](<UML Assets/Generated/uml-05-field-format.png>)
 
 Example:
 
-![fields example](<uml-06-fields-example.png>)
+![fields example](<UML Assets/Generated/uml-06-fields-example.png>)
 
 Java:
 
@@ -102,11 +102,11 @@ private int count;
 
 Method format:
 
-![method format](<uml-07-method-format.png>)
+![method format](<UML Assets/Generated/uml-07-method-format.png>)
 
 Example:
 
-![methods example](<uml-08-methods-example.png>)
+![methods example](<UML Assets/Generated/uml-08-methods-example.png>)
 
 Java:
 
@@ -125,7 +125,7 @@ public int size() {
 
 Constructors often appear as methods with the same name as the class and no return type:
 
-![constructor example](<uml-09-constructor.png>)
+![constructor example](<UML Assets/Generated/uml-09-constructor.png>)
 
 Java:
 
@@ -139,7 +139,7 @@ public Person(String name) {
 
 Interfaces are often shown with `<<interface>>`.
 
-![Animal interface diagram](<uml-10-interface-animal.png>)
+![Animal interface diagram](<UML Assets/Generated/uml-10-interface-animal.png>)
 
 Java:
 
@@ -168,7 +168,7 @@ public class Fish implements Animal {
 
 Inheritance is shown with a solid line and a hollow triangle pointing to the superclass.
 
-![Bear inherits Animal](<uml-11-bear-animal.png>)
+![Bear inherits Animal](<UML Assets/Generated/uml-11-bear-animal.png>)
 
 Read this as: `Bear` is an `Animal`.
 
@@ -184,7 +184,7 @@ public class Bear extends Animal {
 
 Use inheritance for IS-A relationships:
 
-![IS-A examples](<uml-12-is-a-examples.png>)
+![IS-A examples](<UML Assets/Generated/uml-12-is-a-examples.png>)
 
 Do not use inheritance for HAS-A relationships.
 
@@ -192,7 +192,7 @@ Do not use inheritance for HAS-A relationships.
 
 Interface implementation is often shown with a dashed line and hollow triangle pointing to the interface. In simplified course diagrams, you may just see the hollow triangle.
 
-![Fish implements Animal](<uml-13-fish-interface.png>)
+![Fish implements Animal](<UML Assets/Generated/uml-13-fish-interface.png>)
 
 Java:
 
@@ -213,7 +213,7 @@ interface ChildInterface extends ParentInterface
 
 Association means one class knows about or uses another. It is often shown as a plain line.
 
-![association example](<uml-14-association.png>)
+![association example](<UML Assets/Generated/uml-14-association.png>)
 
 This might mean an `Order` has a reference to a `Customer`.
 
@@ -233,7 +233,7 @@ Aggregation is a HAS-A relationship where one object contains or refers to anoth
 
 UML: hollow diamond at the containing/whole side.
 
-![aggregation example](<uml-15-aggregation.png>)
+![aggregation example](<UML Assets/Generated/uml-15-aggregation.png>)
 
 Read as: a `Team` has `Player`s.
 
@@ -257,7 +257,7 @@ Composition is a stronger HAS-A relationship. The contained parts are owned by t
 
 UML: filled diamond at the containing/whole side.
 
-![composition example](<uml-16-composition.png>)
+![composition example](<UML Assets/Generated/uml-16-composition.png>)
 
 Java:
 
@@ -282,7 +282,7 @@ Dependency means one class uses another temporarily, often as a method parameter
 
 UML: dashed arrow.
 
-![dependency example](<uml-17-dependency.png>)
+![dependency example](<UML Assets/Generated/uml-17-dependency.png>)
 
 Java:
 
@@ -302,11 +302,11 @@ Multiplicity shows how many objects are involved.
 
 Common symbols:
 
-![multiplicity key](<uml-18-multiplicity-key.png>)
+![multiplicity key](<UML Assets/Generated/uml-18-multiplicity-key.png>)
 
 Example:
 
-![Library to Book multiplicity](<uml-19-library-books.png>)
+![Library to Book multiplicity](<UML Assets/Generated/uml-19-library-books.png>)
 
 Read as: one library has many books.
 
@@ -322,7 +322,7 @@ public class Library {
 
 Abstract classes/methods are often shown in italics, or with `{abstract}`.
 
-![abstract Animal class](<uml-20-abstract-animal.png>)
+![abstract Animal class](<UML Assets/Generated/uml-20-abstract-animal.png>)
 
 Java:
 
@@ -346,7 +346,7 @@ Animal a = new Animal(); // not allowed if Animal is abstract
 
 Static fields or methods may be underlined in UML.
 
-![static Counter class](<uml-21-static-counter.png>)
+![static Counter class](<UML Assets/Generated/uml-21-static-counter.png>)
 
 If `count` and `getCount()` are underlined, they are static.
 
@@ -380,7 +380,7 @@ For the PGP Java slides and ExamSys diagrams, focus on:
 
 Typical structure:
 
-![Observer generic structure](<uml-22-observer-generic.png>)
+![Observer generic structure](<UML Assets/Generated/uml-22-observer-generic.png>)
 
 Meaning:
 
@@ -398,17 +398,17 @@ button.addActionListener(listener);
 
 Course slide version:
 
-![Observer pattern from Java slides](<L10-p16-01.png>)
+![Observer pattern from Java slides](<UML Assets/L10-p16-01.png>)
 
 ExamSys-style version:
 
-![Observer pattern from ExamSys](<Q17-design-pattern-b.png>)
+![Observer pattern from ExamSys](<ExamSys Assets/Q17-design-pattern-b.png>)
 
 ### Strategy
 
 Typical structure:
 
-![Strategy generic structure](<uml-23-strategy-generic.png>)
+![Strategy generic structure](<UML Assets/Generated/uml-23-strategy-generic.png>)
 
 Meaning:
 
@@ -427,17 +427,17 @@ The layout manager is the strategy.
 
 Course slide version:
 
-![Strategy pattern from Java slides](<L10-p14-01.png>)
+![Strategy pattern from Java slides](<UML Assets/L10-p14-01.png>)
 
 ExamSys-style version:
 
-![Strategy pattern from ExamSys](<Q18-design-pattern-c.png>)
+![Strategy pattern from ExamSys](<ExamSys Assets/Q18-design-pattern-c.png>)
 
 ### Iterator
 
 Typical structure:
 
-![Iterable and Iterator interfaces](<uml-24-iterator-interfaces.png>)
+![Iterable and Iterator interfaces](<UML Assets/Generated/uml-24-iterator-interfaces.png>)
 
 Java:
 
@@ -452,7 +452,7 @@ while (it.hasNext()) {
 
 Typical structure:
 
-![Singleton class diagram](<uml-25-singleton.png>)
+![Singleton class diagram](<UML Assets/Generated/uml-25-singleton.png>)
 
 Java:
 
@@ -481,7 +481,7 @@ Clues:
 
 Typical structure:
 
-![Factory pattern structure](<uml-26-factory.png>)
+![Factory pattern structure](<UML Assets/Generated/uml-26-factory.png>)
 
 Java:
 
@@ -497,7 +497,7 @@ Clue: a class or method creates objects for you, often returning an interface/ba
 
 ExamSys-style version:
 
-![Factory pattern from ExamSys](<Q16-design-pattern-a.png>)
+![Factory pattern from ExamSys](<ExamSys Assets/Q16-design-pattern-a.png>)
 
 ## 18. Course Diagram Examples
 
@@ -505,7 +505,7 @@ ExamSys-style version:
 
 This ExamSys diagram is useful because it tests whether you can distinguish `extends` and `implements`.
 
-![Class inheritance/interface diagram](<Q05-class-diagram.png>)
+![Class inheritance/interface diagram](<ExamSys Assets/Q05-class-diagram.png>)
 
 Read it carefully:
 
@@ -536,7 +536,7 @@ public class D extends B implements C {
 
 UML:
 
-![Person class name](<uml-27-person-name.png>)
+![Person class name](<UML Assets/Generated/uml-27-person-name.png>)
 
 Java:
 
@@ -549,7 +549,7 @@ public class Person {
 
 UML:
 
-![Drawable interface](<uml-28-drawable-interface.png>)
+![Drawable interface](<UML Assets/Generated/uml-28-drawable-interface.png>)
 
 Java:
 
@@ -562,7 +562,7 @@ public interface Drawable {
 
 UML:
 
-![field example](<uml-29-field-name.png>)
+![field example](<UML Assets/Generated/uml-29-field-name.png>)
 
 Java:
 
@@ -574,7 +574,7 @@ private String name;
 
 UML:
 
-![method example](<uml-30-draw-method.png>)
+![method example](<UML Assets/Generated/uml-30-draw-method.png>)
 
 Java:
 
@@ -587,7 +587,7 @@ public void draw() {
 
 UML:
 
-![Bear extends Animal](<uml-31-translate-inheritance.png>)
+![Bear extends Animal](<UML Assets/Generated/uml-31-translate-inheritance.png>)
 
 Java:
 
@@ -600,7 +600,7 @@ public class Bear extends Animal {
 
 UML:
 
-![ButtonHandler implements ActionListener](<uml-32-translate-interface.png>)
+![ButtonHandler implements ActionListener](<UML Assets/Generated/uml-32-translate-interface.png>)
 
 Java:
 
@@ -613,7 +613,7 @@ public class ButtonHandler implements ActionListener {
 
 UML:
 
-![Inventory has Item](<uml-33-translate-has-a.png>)
+![Inventory has Item](<UML Assets/Generated/uml-33-translate-has-a.png>)
 
 Java:
 
@@ -637,7 +637,7 @@ Use this checklist:
 
 Example answer shape:
 
-![strategy answer shape](<uml-34-answer-shape.png>)
+![strategy answer shape](<UML Assets/Generated/uml-34-answer-shape.png>)
 
 ## 21. Common Mistakes
 
@@ -654,4 +654,4 @@ Do not confuse:
 
 Quick distinctions:
 
-![quick UML distinctions](<uml-35-quick-distinctions.png>)
+![quick UML distinctions](<UML Assets/Generated/uml-35-quick-distinctions.png>)
