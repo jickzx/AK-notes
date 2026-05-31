@@ -1,7 +1,7 @@
 # COMP1004 / Databases Index
 
 Start here:
-- [COMP1004 Database Exam Guide.md](<COMP1004 Database Exam Guide.md>) - exam structure, included topics, and revision priorities.
+- [COMP1004 Database Exam Guide.md](<COMP1004 Database Exam Guide.md>) - slide-backed exam notes covering definitions, ERD mapping, normalisation, SQL DDL, and SQL DML.
 - [SQL and ERD Comprehensive Guide.md](<SQL and ERD Comprehensive Guide.md>) - detailed guide to ER modelling, ERD mapping, SQL DDL, and SQL DML.
 - [Condensed Database Notes.md](<Condensed Database Notes.md>) - main overview of the first four database lectures.
 - [Revision Notes/00 - Source Index.md](<Databases/Revision Notes/00 - Source Index.md>) - citation key for the lecture slides.
@@ -47,4 +47,4 @@ Space for practice questions, past papers, coursework guidance, or exam-specific
 - ERD to relation mapping: entities, attributes, primary keys, foreign keys, relationships.
 - Normalisation: functional dependencies, 1NF, 2NF, 3NF, and why redundancy causes problems.
 - SQL DDL: `CREATE TABLE`, data types, constraints, `ALTER TABLE`, `DROP TABLE`.
-- SQL DML: `SELECT`, `WHERE`, aggregate functions, `GROUP BY`, `HAVING`, joins, subqueries, string functions.
+- SQL DML: `SELECT`, `WHERE`, aggregate functions, `GROUP BY`, `HAVING`, joins, and subqueries.
