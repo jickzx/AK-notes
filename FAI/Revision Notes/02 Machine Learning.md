@@ -224,6 +224,7 @@ Sklearn process from slides:
 - Train with `lr.fit(x_train, y_train)`.
 - Predict with `lr.predict(x_test)`.
 - Evaluate with `metrics.mean_squared_error(y_test, y_pred)`.
+- Inspect the learned function with `lr.coef_` and `lr.intercept_`.
 
 ## Classification
 
@@ -281,6 +282,7 @@ Decision tree implementation details from slides:
 - Testing uses `t_model.predict(X_test)`.
 - Accuracy can be calculated with `metrics.accuracy_score(y_test, y_predict)`.
 - Tree interpretation can use `tree.plot_tree`.
+- The slides show a possible rule path like `Sex <= 0.5`, `pclass <= 2.5`, and fare/age thresholds. The exact learned rule depends on data split, missing-data decisions, and tree depth.
 
 Decision tree tuning:
 - Depth is a decision parameter.
@@ -479,3 +481,17 @@ ANN interpretation:
 ANN regression:
 - Use `MLPRegressor`.
 - ANNs can solve both classification and regression tasks.
+
+## Supervised Learning Applications
+
+Applications mentioned in the supervised learning summary:
+- Healthcare: disease diagnosis and drug discovery.
+- Retail: product recommendation and demand prediction.
+- Transportation: traffic prediction and object recognition.
+- Security: facial recognition and cyberattack detection.
+- NLP: translation and sentiment analysis.
+- Finance: credit scoring for loan approvals.
+
+Key data point:
+- Supervised learning needs high-quality labelled data, which can be expensive.
+- Known ground truth allows more accurate evaluation metrics than unsupervised learning.

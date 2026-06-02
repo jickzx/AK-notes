@@ -27,8 +27,12 @@ Coverage note:
 
 - Module: COMP1008 Fundamentals of AI.
 - Exam weighting: 75%.
+- Exam marks: 75.
+- Exam duration: 2 hours.
 - Coursework weighting: 25%.
+- Coursework marks: 25.
 - Exam is in ExamSys.
+- Exam is in-person.
 - No coding is required in the exam.
 - Exam topics are:
   - AI basics.
@@ -37,6 +41,7 @@ Coverage note:
   - Tree search.
   - Game playing.
 - All lecture content is examinable unless the lecturer says otherwise.
+- Computing material supports coursework and applied understanding, but the exam does not require coding.
 
 ## Revision Priorities
 

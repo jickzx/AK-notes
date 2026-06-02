@@ -4,22 +4,22 @@ This file is a checklist for the AI PowerPoints used to make the notes. It is no
 
 ## Decks Checked
 
-- `1FAIintro.pptx`: 25 slides.
-- `2FAIml-intro.pptx`: 11 slides.
-- `2FAIml-data.pptx`: 16 slides.
-- `2FAIml-unsupervised.pptx`: 15 slides.
-- `2FAIml-supervised.pptx`: 35 slides.
-- `2FAIml-ann.pptx`: 39 slides.
-- `3FAIbayes.pptx`: 25 slides.
-- `3FAIkrr.pptx`: 12 slides.
-- `3FAInlp.pptx`: 16 slides.
-- `3FAIllm.pptx`: 15 slides.
-- `4FAIsearch.pptx`: 19 slides.
-- `4FAIblind-BFS-DFS.pptx`: 15 slides.
-- `4FAIblind-UCS.pptx`: 10 slides.
-- `4FAIheuristic.pptx`: 19 slides.
-- `4FAIgame.pptx`: 25 slides.
-- `5FAInext.pptx`: 7 slides.
+- `01 Course Introduction.pdf` / `1FAIintro`: 25 slides.
+- `02 Machine Learning Introduction.pdf` / `2FAIml-intro`: 11 slides.
+- `03 Machine Learning Process and Data.pdf` / `2FAIml-data`: 16 slides.
+- `04 Machine Learning Unsupervised Learning.pdf` / `2FAIml-unsupervised`: 15 slides.
+- `05 Machine Learning Supervised Learning.pdf` / `2FAIml-supervised`: 35 slides.
+- `06 Artificial Neural Networks.pdf` / `2FAIml-ann`: 39 slides.
+- `07 Bayes Rule.pdf` / `3FAIbayes`: 25 slides.
+- `08 Knowledge Representation and Reasoning.pdf` / `3FAIkrr`: 12 slides.
+- `09 Natural Language Processing.pdf` / `3FAInlp`: 16 slides.
+- `10 Large Language Models.pdf` / `3FAIllm`: 15 slides.
+- `11 Search Tree.pdf` / `4FAIsearch`: 19 slides.
+- `12 Blind Search BFS and DFS.pdf` / `4FAIblind-BFS-DFS`: 15 slides.
+- `13 Blind Search UCS.pdf` / `4FAIblind-UCS`: 10 slides.
+- `14 Heuristic Search.pdf` / `4FAIheuristic`: 19 slides.
+- `15 Game Playing.pdf` / `4FAIgame`: 25 slides.
+- `16 What Next.pdf` / `5FAInext`: 7 slides.
 
 Total checked: 294 slides.
 

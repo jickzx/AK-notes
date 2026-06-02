@@ -162,9 +162,6 @@ Time complexity:
 Space complexity:
 - How many nodes must be stored?
 
-Optimality:
-- The slides phrase this as finding the optimal solution, one or all optimal solutions.
-
 ## Breadth-First Search
 
 BFS expands the shallowest nodes first.
@@ -323,12 +320,50 @@ Romania map example:
 - It is admissible because no road route can be shorter than the straight-line distance.
 - A* compares `g + h` for fringe nodes.
 - In the lecture example, A* reached the same optimal route as UCS but expanded fewer nodes.
+- UCS expanded: Sibiu, Rimnicu, Fagaras, Arad, Pitesti, Zerind, Craiova, Timisoara, Bucharest.
+- A* expanded: Sibiu, Rimnicu, Pitesti, Fagaras, Bucharest.
+- Both found route cost 278 in the lecture example, but A* reached it with fewer expansions.
+
+Straight-line distance examples from the slide table:
+- Arad: 366.
+- Bucharest: 0.
+- Craiova: 160.
+- Dobreta: 242.
+- Eforie: 161.
+- Fagaras: 178.
+- Giurgiu: 77.
+- Hirsova: 151.
+- Iasi: 226.
+- Mehadia/Mehadai: 241.
+- Neamt: 234.
+- Oradea: 380.
+- Pitesti: 98.
+- Rimnicu: 193.
+- Sibiu: 253.
+- Timisoara: 329.
+- Urziceni: 80.
+- Vaslui: 199.
+- Zerind: 374.
 
 8-puzzle heuristics:
 - `h1`: number of tiles in the wrong position.
 - `h2`: sum of Manhattan distances of tiles from their goal positions.
 - Both can be admissible.
 - `h2` is usually better because it is closer to the true remaining cost and explores fewer nodes.
+- The lecture example gives `h1 = 4` and `h2 = 5` for one state.
+- Typical 8-puzzle solution length in the slides: about 20 steps.
+- Approximate branching factor: about 3.
+- Search-space size: about `9! = 362,880` states.
+
+Heuristic comparison from the slides:
+- Depth 2: A* with `h1` explored 6 nodes; A* with `h2` explored 6.
+- Depth 4: `h1` explored 13; `h2` explored 12.
+- Depth 6: `h1` explored 20; `h2` explored 18.
+- Depth 8: `h1` explored 39; `h2` explored 25.
+- Depth 10: `h1` explored 93; `h2` explored 39.
+- Depth 12: `h1` explored 227; `h2` explored 73.
+- Depth 14: `h1` explored 539; `h2` explored 113.
+- Lesson: the closer an admissible heuristic is to the actual cost, the fewer nodes A* tends to explore.
 
 Better heuristic:
 - Still admissible.

@@ -340,6 +340,7 @@ IBM Watson:
 - Used NLP such as POS tagging, NER, syntactic analysis, and semantic analysis.
 - Used machine learning such as supervised classification/regression, unsupervised topic grouping, and deep learning/RNNs.
 - Used reasoning and inference through rule-based systems and probabilistic reasoning.
+- The slide frames Watson as a mixed system: NLP plus machine learning plus KRR.
 
 Google Translate:
 - Used traditional statistical methods from 2006 to 2016.
@@ -429,6 +430,7 @@ Scaling law:
 - Relates model performance to model size, data size, and computation.
 - If model size increases, training data also needs to increase.
 - Raises questions about data walls, exhausted computation, and where tech companies should invest.
+- The lecture phrasing was that model size may increase exponentially for only linear gain.
 
 Temperature:
 - Controls randomness/creativity at the output layer.

@@ -94,6 +94,8 @@ Turing background from the slides:
 - His work included the Turing machine in "On Computable Numbers".
 - He helped devise the Bombe for Enigma decryption.
 - His 1950 paper proposed the imitation-game style test for machine intelligence.
+- In the lecture version, if the machine fools the interrogator 30% of the time, it is considered intelligent.
+- Example question used: "What is 35,076 divided by 4,567?" A human-like answer might hesitate, while a machine-like answer may give the exact decimal immediately.
 
 Why it matters:
 - It gives an operational test of intelligent behaviour.
@@ -105,6 +107,12 @@ Limitations:
 - It rewards imitation, not necessarily intelligence.
 - A chatbot can appear convincing in a narrow interaction.
 - It may reward deception or human-like errors rather than reliable reasoning.
+
+Real-life Turing-test-like examples:
+- Online/AI games.
+- Chatrooms.
+- Content generators.
+- AI art generators, including music, painting, poetry, and composing programs.
 
 Exam phrasing:
 - The Turing test tests whether a system acts intelligently, not whether it has a mind.
@@ -148,6 +156,7 @@ Exam point:
 AI creates ethical problems because traditional ethics often assumes human decision makers.
 
 Issues to mention:
+- Trolley-dilemma style moral decisions.
 - Privacy and security of data.
 - Bias and fairness.
 - Transparency and explainability.
@@ -184,3 +193,10 @@ Reference textbook chapters mentioned:
 Computing-side reference:
 - Python Data Science Handbook by Jake VanderPlas.
 - Jupyter Notebook and Anaconda were used for computing sessions.
+
+Course workload facts from slides:
+- Lectures: 18 hours.
+- Computing sessions: 14 hours including preparation.
+- Coursework: about 25 hours.
+- Exam revision/self-study: about 38 hours.
+- Office hours: about 5 hours.
