@@ -21,6 +21,23 @@
 - Three risk responses: avoid, mitigate/minimise, contingency/handling. [L18 p8](<../Lecture Slides/18 - Risk Management.pdf#page=8>)
 - Six-mark risk answers should name each strategy and give a scenario-specific example. [L18 p8](<../Lecture Slides/18 - Risk Management.pdf#page=8>)
 
+## Planning Question Pattern
+
+Use this for Gantt, critical-path, and staffing questions. [L19 p11](<../Lecture Slides/19 - Agile Planning and Project Management.pdf#page=11>)
+
+1. Create a task table: task, duration, dependencies, staff needed.
+2. Mark earliest start and earliest finish for every task.
+3. Identify the longest dependency chain as the critical path.
+4. State the project duration from the critical path.
+5. Check overlapping tasks for staff conflicts.
+6. If asked to fix the schedule, move a task with slack and state why the finish date is unchanged.
+
+Good phrases:
+- "Task X is critical because delaying it delays the final completion date."
+- "Task Y has slack, so it can be moved to solve the staffing clash."
+- "This avoids extending the project because the critical path is unchanged."
+- "The schedule is invalid at this point because it requires more staff than are available."
+
 ## Scenario Answer Ingredients
 
 - For accessibility or uncertain-user scenarios, involve users early, use personas/use cases, prototype, collect feedback, and define acceptance criteria. [L03 p40](<../Lecture Slides/03 - Requirements Introduction.pdf#page=40>) [L03 p47](<../Lecture Slides/03 - Requirements Introduction.pdf#page=47>) [L08 p7](<../Lecture Slides/08 - Prototyping.pdf#page=7>) [L14 p7](<../Lecture Slides/14 - Configuration and Deployment.pdf#page=7>)
@@ -28,4 +45,3 @@
 - For vague product ideas, use agile methods, rapid feedback, user stories, prototypes, and incremental delivery. [L16 p47](<../Lecture Slides/16 - Agile vs Traditional and Maintenance.pdf#page=47>) [L16 p49](<../Lecture Slides/16 - Agile vs Traditional and Maintenance.pdf#page=49>) [L16 p94](<../Lecture Slides/16 - Agile vs Traditional and Maintenance.pdf#page=94>)
 - For team-availability risks, use pair programming, collective ownership, documentation, and avoid placing single points of failure on critical tasks. [L16 p68](<../Lecture Slides/16 - Agile vs Traditional and Maintenance.pdf#page=68>) [L19 p11](<../Lecture Slides/19 - Agile Planning and Project Management.pdf#page=11>)
 - For platform/version-release scenarios, mention configuration management, CI, automated tests, release management, tags, and platform-specific builds. [L02 p26](<../Lecture Slides/02 - Git Ready for Teamwork.pdf#page=26>) [L14 p9](<../Lecture Slides/14 - Configuration and Deployment.pdf#page=9>)
-

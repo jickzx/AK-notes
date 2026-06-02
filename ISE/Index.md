@@ -17,9 +17,16 @@ Use this folder when:
 - reviewing slide examples;
 - following citations in `Revision Notes`.
 
+### [Lecture Summaries](<Lecture Summaries>)
+
+Lecture-by-lecture summaries for `01-19`, with key ideas, diagrams, and exam angles.
+
+Start with:
+- [00 - Lecture Summary Index.md](<Lecture Summaries/00 - Lecture Summary Index.md>)
+
 ### [Revision Notes](<Revision Notes>)
 
-Topic-based notes made from the lectures, with citations such as `[L03 p10]`.
+Detailed topic-based notes made from the lectures, required readings, practice questions, and past-paper themes, with citations such as `[L03 p10]`. Use these as the encyclopaedic content base, then use the exam guide and answer-pattern note for timed practice.
 
 Recommended order:
 1. [01 - Software Engineering Foundations.md](<01 - Software Engineering Foundations.md>)
@@ -77,6 +84,16 @@ Use this folder for:
 5. Use [Exam and Revision/Practice Questions](<Exam and Revision/Practice Questions>) to test recall.
 6. Use [Exam and Revision/Past Papers](<Exam and Revision/Past Papers>) for timing and answer shape.
 7. Return to cited lecture slides only where a note feels weak or unclear.
+
+## Practice Paper Drill Method
+
+For each practice or mock question:
+
+1. Answer from memory first, timed at about 2.4 minutes per mark.
+2. Check the answer against [COMP1003 Exam Guide.md](<COMP1003 Exam Guide.md>) and [Revision Notes/07 - Exam Answer Patterns.md](<Revision Notes/07 - Exam Answer Patterns.md>).
+3. If you missed a definition, add it to [Glossary.md](<Glossary.md>).
+4. If you missed an answer structure, add it to [Revision Notes/07 - Exam Answer Patterns.md](<Revision Notes/07 - Exam Answer Patterns.md>).
+5. If you missed a planning calculation, redo it until you can identify dependencies, critical path, slack, and staff conflicts without looking.
 
 ## Highest Priority Topics
 

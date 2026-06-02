@@ -75,6 +75,65 @@ After reviewing the required reading, the weighting should be read like this:
 
 See `Required Reading Notes/02 - Reweighted Exam Priorities After Required Reading.md` for the full revised priority list.
 
+## Visual Diagrams To Know
+
+These are the visual patterns most worth being able to recognise, explain, or sketch quickly.
+
+Four software engineering activities:
+
+```mermaid
+flowchart LR
+    S[Specification] --> D[Development]
+    D --> V[Validation]
+    V --> E[Evolution]
+    E --> S
+```
+
+Requirements engineering:
+
+```mermaid
+flowchart LR
+    F[Feasibility] --> E[Elicitation and analysis]
+    E --> S[Specification]
+    S --> V[Validation]
+    V --> R[Requirements document / models]
+```
+
+Testing levels:
+
+```mermaid
+flowchart TB
+    Req[Requirements] --> Acc[Acceptance testing]
+    Spec[Specification] --> Rel[Release testing]
+    Design[Design] --> Int[Integration testing]
+    Code[Code units] --> Unit[Unit testing]
+    Users[Real users] --> User[User testing]
+```
+
+Scrum cycle:
+
+```mermaid
+flowchart LR
+    Backlog[Product backlog] --> Planning[Sprint planning]
+    Planning --> Sprint[Sprint]
+    Sprint --> Increment[Working increment]
+    Increment --> Review[Sprint review]
+    Review --> Retro[Retrospective]
+    Retro --> Backlog
+```
+
+Critical-path pattern:
+
+```mermaid
+flowchart LR
+    A[A: 2 days] --> B[B: 3 days]
+    A --> C[C: 4 days]
+    B --> D[D: 2 days]
+    C --> D
+```
+
+In the critical-path example, `A-C-D` is the controlling path because `2 + 4 + 2 = 8`, while `A-B-D` is `2 + 3 + 2 = 7`.
+
 ## Core Concepts
 
 ### Why Software Engineering Exists
@@ -477,6 +536,45 @@ To solve a staffing problem without extending the project:
 - Check if it has slack/float.
 - Delay that task within its available slack.
 - Avoid delaying critical-path tasks unless unavoidable.
+
+### Gantt, Critical Path, and Staffing Method
+
+For planning questions, do the mechanics before writing the explanation.
+
+1. List each task, duration, dependencies, and staff requirement.
+2. For each task, find the earliest start time: it can only start after all predecessor tasks are complete.
+3. Find each earliest finish time: earliest start plus duration.
+4. The project duration is the latest earliest finish time among the final tasks.
+5. Trace backwards from the final task through the dependency chain that controls the finish date. This is the critical path.
+6. Check staffing by counting how many people are needed in each time period.
+7. If there is a staffing clash, move a non-critical task into its slack if possible.
+
+Useful exam wording:
+- A task is on the critical path if delaying it delays the whole project.
+- Slack/float is the amount of time a task can be delayed without delaying the project finish.
+- A staffing conflict happens when the schedule requires more people at the same time than are available.
+- A good fix moves non-critical work, not critical-path work, unless there is no alternative.
+
+Small worked pattern:
+
+| Task | Duration | Depends on |
+| ---- | -------- | ---------- |
+| A | 2 days | none |
+| B | 3 days | A |
+| C | 4 days | A |
+| D | 2 days | B, C |
+
+Earliest schedule:
+- A runs day 0-2.
+- B can start after A, so B runs day 2-5.
+- C can start after A, so C runs day 2-6.
+- D must wait for both B and C, so D runs day 6-8.
+
+Critical path:
+- A-C-D controls the finish date: 2 + 4 + 2 = 8 days.
+- A-B-D is shorter: 2 + 3 + 2 = 7 days, so B has 1 day of slack.
+
+If B and C cause a staffing clash, delay B by up to 1 day before the project duration changes. Do not delay C, because C is on the critical path.
 
 ## Agile and Scrum
 
