@@ -1,0 +1,3 @@
+# Classroom 42 Software Engineer Internship - James Espinosa
+
+...
