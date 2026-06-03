@@ -17,8 +17,8 @@
 
 ## Hackathons
 
-[hackbelfast](hackbelfast.md)
-[hacklondon](hacklondon.md)
-[hacknotts](hacknotts.md)
-[hacksussex](hacksussex.md)
-[sotonhack](sotonhack.md)
+[HackBelfast - James Espinosa](hackbelfast.md)
+[HackLondon](hacklondon.md)
+[HackNotts](hacknotts.md)
+[HackSussex](hacksussex.md)
+[SotonHack](sotonhack.md)
